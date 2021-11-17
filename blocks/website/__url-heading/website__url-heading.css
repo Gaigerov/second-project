@@ -1,0 +1,6 @@
+.website__url-heading {
+    align-self: end;
+    margin-bottom: 30px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}

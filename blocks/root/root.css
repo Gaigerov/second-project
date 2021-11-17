@@ -1,0 +1,19 @@
+.root {
+    background-color: #2A2C2F;
+    color: #fff;
+    min-width: 320px;
+    margin: auto;
+    -webkit-font-smoothing: antialiased
+}
+
+a {
+    color: #fff;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:active {
+    color: #fff;
+}

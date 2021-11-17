@@ -1,0 +1,6 @@
+@import url('../__paragraph/_position/place__paragraph_position_main.css');
+@import url('../__paragraph/_position/place__paragraph_position_secondary.css');
+
+.place__paragraph {
+margin: 0;
+}

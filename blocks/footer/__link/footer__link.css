@@ -1,0 +1,10 @@
+.footer__link {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-right: 18px;
+}
+
+.footer__link:nth-last-child(1){
+    margin-right: 0;
+}
