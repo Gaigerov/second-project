@@ -1,12 +1,4 @@
 .content {
-    /* display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-areas: "lead"
-                         "intro"
-                         "photo-grid"
-                         "places"
-                         "cover"; */
     margin: 0 auto;
     padding: 0;
 }

@@ -1,4 +1,8 @@
 .cover__background {
+    opacity: 60%;
+}
 
-    opacity: 70%;
+.cover__background:hover {
+    -webkit-filter: brightness(40%);
+    filter: brightness(40%);
 }

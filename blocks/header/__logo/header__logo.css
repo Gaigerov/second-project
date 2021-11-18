@@ -1,6 +1,3 @@
 .header__logo {
-    grid-area: logo;
-    justify-items: start;
-    align-self: center;
-    width: 176px;
+    margin: 0;
 }
