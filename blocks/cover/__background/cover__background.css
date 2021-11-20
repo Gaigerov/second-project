@@ -1,5 +1,7 @@
+@import url('../__label/cover__label.css');
+
 .cover__background {
-    z-index: 0;
+    margin: auto;
     opacity: 60%;
 }
 
