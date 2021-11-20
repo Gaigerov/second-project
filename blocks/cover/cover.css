@@ -1,14 +1,135 @@
 @import url('./__title/cover__title.css');
 @import url('./__subtitle/cover__subtitle.css');
 @import url('./__background/cover__background.css');
+@import url('./__label/cover__label.css');
 
 .cover {
+    z-index: 0;
     display: flex;
     flex-direction: column;
-    max-width: 1184px;
     position: relative;
-    z-index: 0;
-    margin: 92px auto;
     overflow: hidden;
     cursor: pointer;
 }
+
+@media screen and (max-width: 320px){
+    .cover {
+        max-width: 320px;
+        margin: 66px auto 64px;
+    }
+
+    .cover__title {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+        max-width: 250px;
+    }
+
+    .cover__subtitle {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 16px auto 0;
+        min-width: 288px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 560px){
+    .cover {
+        min-width: 321px;
+        max-width: 768px;
+        margin: 90px auto 88px;
+    }
+
+    .cover__title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 46px;
+        max-width: 350px;
+    }
+
+    .cover__subtitle {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 16px auto 0;
+        min-width: 250px;
+        max-width: 300px;
+    }
+    } 
+
+@media screen and (min-width: 561px) and (max-width: 768px){
+    .cover {
+        min-width: 321px;
+        max-width: 768px;
+        margin: 90px auto 88px;
+    }
+
+    .cover__title {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 76px;
+        max-width: 560px;
+    }
+
+    .cover__subtitle {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 32px auto 0;
+        max-width: 360px;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .cover {
+        min-width: 769px;
+        max-width: 1024px;
+        margin: 92px auto 92px;
+    }
+
+    .cover__label {
+        top: 20%;
+    }
+
+    .cover__title {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 76px;
+        align-items: center;
+        max-width: 560px;
+    }
+
+    .cover__subtitle {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;  
+        align-items: center;        
+        margin: 32px auto 0;
+        max-width: 360px;
+    }
+} 
+
+@media screen and (min-width: 1025px) {
+    .cover {
+        min-width: 1024px;
+        max-width: 1184px;
+    }
+
+    .cover__label {
+        top: 20%;
+    }
+
+    .cover__title {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 76px;
+    }
+
+    .cover__subtitle {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        margin: 32px auto 0;
+    }
+} 

@@ -2,5 +2,6 @@
 @import url('../__paragraph/_position/place__paragraph_position_secondary.css');
 
 .place__paragraph {
-margin: 0;
+    align-self: start;
+    padding: 0;
 }

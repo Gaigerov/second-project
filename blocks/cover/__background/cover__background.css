@@ -1,4 +1,5 @@
 .cover__background {
+    z-index: 0;
     opacity: 60%;
 }
 

@@ -1,5 +1,3 @@
 .place__paragraph_position_secondary {
-    margin-top: 26px;
-    grid-column: 3/4;
-    grid-row: 3/4;
+    grid-area: par-sec;
 }

@@ -1,5 +1,3 @@
 .place__paragraph_position_main {
-    margin-top: 48px;
-    grid-column: 3/4;
-    grid-row: 2/3;
+    grid-area: par-main;
 }
