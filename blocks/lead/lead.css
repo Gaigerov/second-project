@@ -32,10 +32,6 @@
         margin: 16px auto 40px;
     }
 
-    .lead__image {
-        max-width: 100%;
-    }
-
     .lead__caption {
         max-width: 90%;
         justify-content: flex-start;
@@ -59,10 +55,6 @@
         font-size: 18px;
         line-height: 1.25rem;
         margin: 32px auto 56px;
-    }
-
-    .lead__image {
-        max-width: 100%;
     }
     
     .lead__caption {
@@ -90,10 +82,6 @@
         font-size: 30px;
         line-height: 36px;
         margin: 32px auto 56px;
-    }
-
-    .lead__image {
-        max-width: 100%;
     }
 
     .lead__caption {

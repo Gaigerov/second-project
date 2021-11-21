@@ -6,4 +6,5 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fit, auto);
     grid-gap: 80px;
+    overflow: hidden;
 }

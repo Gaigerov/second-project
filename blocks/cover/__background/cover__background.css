@@ -5,7 +5,3 @@
     opacity: 60%;
 }
 
-.cover__background:hover {
-    -webkit-filter: brightness(40%);
-    filter: brightness(40%);
-}

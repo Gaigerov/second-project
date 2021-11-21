@@ -1,3 +1,8 @@
 .website__link {
     grid-area: link;
+    text-decoration: underline;
+}
+
+.website__link:hover {
+    cursor: pointer;
 }

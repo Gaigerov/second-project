@@ -6,13 +6,13 @@
 .place {
     display: grid;
     justify-content: center;
-
+    overflow: hidden;
 }
 
 @media screen and (max-width: 320px){
     .place {
         grid-template-columns: auto;
-        grid-template-rows: repeat(7, auto);
+        grid-template-rows: auto auto auto;
         grid-template-areas: "title"
                              "url-heading"
                              "link"
@@ -28,19 +28,6 @@
         font-size: 32px;
         line-height: 35px;
         margin: 0 auto;
-    }
-    .website {
-        min-width: 288px;
-        margin: 0;
-        justify-content: start;
-    }
-
-    .website__url-heading {
-        margin: 32px auto 0;
-    }
-
-    .website__link {
-        margin: 12px auto 32px;
     }
     
     .place__image {
@@ -67,7 +54,7 @@
 @media screen and (min-width: 321px) and (max-width: 725px){
     .place {
         grid-template-columns: auto;
-        grid-template-rows: repeat(7, auto);
+        grid-template-rows: auto auto auto;
         grid-template-areas: "title"
                              "url-heading"
                              "link"
@@ -84,20 +71,7 @@
         line-height: 35px;
         margin: 0 24px;
     }
-    .website {
-        min-width: 288px;
-        margin: 0;
-        justify-content: start;
-    }
 
-    .website__url-heading {
-        margin: 32px 24px 0;
-    }
-
-    .website__link {
-        margin: 12px 24px 32px;
-    }
-    
     .place__image {
         margin: 0 auto;
         max-width: 100%;
@@ -120,8 +94,9 @@
 @media screen and (min-width: 725px) and (max-width: 960px){
     .place {
         grid-template-columns: 340px 28px 340px;
-        grid-template-rows: repeat(5, auto);
-        grid-template-areas: "title . url-heading"
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "title . ."
+                             "title . url-heading"
                              "title . link"
                              "image . par-main"
                              "image . par-sec"
@@ -130,26 +105,13 @@
     
     .place__title {
         margin: 0 0 32px;
-        max-width: 100%;
+        max-width: 90%;
         font-weight: 900;
         font-size: 42px;
         line-height: 46px;
         align-self: end;
     }
-    .website {
-        margin: 0;
-    }
 
-    .website__url-heading {
-        margin: 0;
-        align-self: end;
-    }
-
-    .website__link {
-        margin: 12px 0 32px;
-        align-self: end;
-    }
-    
     .place__image {
         margin: 0;
         max-width: 100%;
@@ -173,8 +135,9 @@
 @media screen and (min-width: 960px) and (max-width: 1024px){
     .place {
         grid-template-columns: 440px 32px 440px;
-        grid-template-rows: repeat(5, auto);
-        grid-template-areas: "title . url-heading"
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "title . ."
+                             "title . url-heading"
                              "title . link"
                              "image . par-main"
                              "image . par-sec"
@@ -185,21 +148,8 @@
         margin: 0 0 32px;
         max-width: 100%;
         font-weight: 900;
-        font-size: 42px;
-        line-height: 46px;
-        align-self: end;
-    }
-    .website {
-        margin: 0;
-    }
-
-    .website__url-heading {
-        margin: 0;
-        align-self: end;
-    }
-
-    .website__link {
-        margin: 12px 0 32px;
+        font-size: 72px;
+        line-height: 76px;
         align-self: end;
     }
     
@@ -208,10 +158,10 @@
         max-width: 100%;
     }
 
-
     .place__paragraph_position_main {
         margin: 0 auto 25px;
     }
+
     .place__paragraph_position_secondary {
         margin: 0 auto;
     }
@@ -223,7 +173,8 @@
         margin: auto;
         grid-template-columns: 460px 40px 484px;
         grid-template-rows: auto auto auto;
-        grid-template-areas: "title . url-heading"
+        grid-template-areas: "title . ."
+                             "title . url-heading"
                              "title . link"
                              "image . par-main"
                              "image . par-sec"
@@ -234,24 +185,11 @@
         margin: 0 0 32px;
         max-width: 100%;
         font-weight: 900;
-        font-size: 42px;
-        line-height: 46px;
-        align-self: end;
-    }
-    .website {
-        margin: 0;
-    }
-
-    .website__url-heading {
-        margin: 0;
+        font-size: 72px;
+        line-height: 76px;
         align-self: end;
     }
 
-    .website__link {
-        margin: 12px 0 32px;
-        align-self: end;
-    }
-    
     .place__image {
         margin: 0;
         max-width: 100%;
@@ -259,7 +197,6 @@
 
     .place__paragraph {
         margin: auto;
-
     }
 
     .place__paragraph_position_main {

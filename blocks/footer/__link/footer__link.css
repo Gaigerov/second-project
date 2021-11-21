@@ -4,6 +4,7 @@
     text-decoration: none;
 }
 
-/* .footer__link:nth-last-child(1){
-    margin-right: 0;
-} */
+.footer__link:hover {
+    cursor: pointer;
+}
+
