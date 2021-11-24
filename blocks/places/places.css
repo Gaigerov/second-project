@@ -1,0 +1,10 @@
+.places {
+    grid-area: places;
+    display: grid;
+    margin-top: 92px;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fit, auto);
+    grid-gap: 80px;
+    overflow: hidden;
+}

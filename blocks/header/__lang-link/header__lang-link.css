@@ -1,0 +1,15 @@
+@import url('./_active/header__lang-link_selected.css');
+
+.header__lang-link {
+    text-decoration: none;
+    margin-right: 18px;
+}
+
+.header__lang-link:nth-child(2) {
+    margin-right: 0;
+}
+
+.header__lang-link:hover {
+    cursor: pointer;
+    opacity: 80%;
+}

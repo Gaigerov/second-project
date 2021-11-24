@@ -1,0 +1,107 @@
+@import url('../lead/__title/lead__title.css');
+@import url('../lead/__subtitle/lead__subtitle.css');
+@import url('../lead/__image/lead__image.css');
+@import url('../lead/__caption/lead__caption.css');
+
+.lead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-sizing: content-box;
+    margin: auto;
+}
+
+@media screen and (max-width: 320px){
+    .lead {
+        max-width: 320px;
+    }
+
+    .lead__title {
+        max-width: 288px;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 2.75rem;
+    }
+
+    .lead__subtitle {
+        max-width: 288px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25rem;
+        margin: 16px auto 40px;
+    }
+
+    .lead__caption {
+        max-width: 90%;
+        justify-content: flex-start;
+        margin: 8px 0 0;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px){
+    .lead {
+        max-width: 768px;
+    }
+
+    .lead__title {
+        max-width: 350px;
+        font-size: 46px;
+    }
+
+    .lead__subtitle {
+        max-width: 350px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.25rem;
+        margin: 32px auto 56px;
+    }
+    
+    .lead__caption {
+        max-width: 90%;
+        justify-content: flex-start;
+        margin: 8px 0 0;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .lead {
+        max-width: 928px;
+    }
+
+    .lead__title {
+        max-width: 720px;
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 6.25rem;
+    }
+
+    .lead__subtitle {
+        max-width: 640px;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 36px;
+        margin: 32px auto 56px;
+    }
+
+    .lead__caption {
+        max-width: 90%;
+        justify-content: flex-start;
+        margin: 8px 0 0;
+    }
+} 
+
+@media screen and (min-width: 1025px) {
+    .lead {
+        max-width: 984px;
+    }
+
+    .lead__title {
+        max-width: 720px;
+    }
+
+    .lead__subtitle {
+        max-width: 640px;
+        margin: 32px auto 64px;
+    }
+} 

@@ -1,0 +1,131 @@
+@import url('./__title/cover__title.css');
+@import url('./__subtitle/cover__subtitle.css');
+@import url('./__background/cover__background.css');
+@import url('./__label/cover__label.css');
+
+.cover {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+.cover:hover img {
+    -webkit-filter: brightness(40%);
+    filter: brightness(40%);
+}
+
+@media screen and (max-width: 320px){
+    .cover {
+        margin: 66px auto 64px;
+        max-width: 320px;
+    }
+
+     .cover__title {
+        font-size: 32px;
+        line-height: 2.18rem;
+        max-width: 250px;
+    }
+
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 1rem;
+        margin: 16px auto 0;
+        min-width: 288px;
+    } 
+
+    .cover__background {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 560px){
+    .cover {
+        margin: 66px auto 64px;
+        max-width: 560px;
+    }
+
+    .cover__title {
+        font-size: 32px;
+        line-height: 2.18rem;
+        max-width: 250px;
+    }
+
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 1rem;
+        margin: 16px auto 0;
+        max-width: 288px;
+    } 
+
+    .cover__background {
+        max-width: 100%;
+    }
+} 
+
+@media screen and (min-width: 561px) and (max-width: 768px){
+    .cover {
+        margin: 90px auto 88px;
+        max-width: 768px;
+    }
+
+    .cover__title {
+        font-size: 72px;
+        line-height: 4.75rem;
+        max-width: 560px;
+    }
+
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 1rem;
+        margin: 32px auto 0;
+        max-width: 360px;
+    }
+
+    .cover__background {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .cover {
+        margin: 92px auto 92px;
+        max-width: 984px;
+    }
+
+    .cover__title {
+        font-size: 72px;
+        line-height: 4.75rem;
+        align-items: center;
+        max-width: 560px;
+    }
+
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 1rem;         
+        margin: 32px auto 0;
+        max-width: 360px;
+    } 
+
+    .cover__background {
+        max-width: 100%;
+    }
+} 
+
+@media screen and (min-width: 1025px) {
+    .cover {
+        margin: 92px auto 92px;
+    }
+
+   .cover__title {
+        font-size: 72px;
+        line-height: 4.75rem;
+    }
+
+    .cover__subtitle {
+        font-size: 18px;
+        line-height: 1.375rem;
+        margin: 32px auto 0;
+    } 
+} 
