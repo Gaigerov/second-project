@@ -6,5 +6,6 @@
 
 .footer__link:hover {
     cursor: pointer;
+    opacity: 80%;
 }
 

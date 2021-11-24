@@ -11,4 +11,5 @@
 
 .header__lang-link:hover {
     cursor: pointer;
+    opacity: 80%;
 }
