@@ -1,3 +1,5 @@
 .footer__copyright {
     padding: 0;
+    text-align: left;
+    margin: 32px 24px;
 }

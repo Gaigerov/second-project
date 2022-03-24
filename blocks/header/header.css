@@ -1,6 +1,4 @@
 @import url('./__logo/header__logo.css');
-@import url('./__lang-links/header__lang-links.css');
-@import url('./__lang-link/header__lang-link.css');
 
 .header {
     display: flex;
@@ -11,30 +9,37 @@
 
 @media screen and (max-width: 320px){
     .header {
-        margin: 16px 16px 48px;
+        margin: 16px 16px 0px;
         font-size: 18px;
         line-height: 1.25rem;
     }
 
     .header__logo {
-        max-width: 142px;
+        min-width: 100px;
+        max-width: 20%;
     }
 }
 
 @media screen and (min-width: 321px){
     .header {
-        margin: 28px 24px 48px;
+        margin: 24px 24px 0px;
         font-size: 24px;
         line-height: 1.75rem;
     }
 
     .header__logo {
-        min-width: 176px;
+        min-width: 150px;
+        max-width: 15%;
     }
 }
 
 @media screen and (min-width: 1024px){
     .header {
-        margin: 28px 48px 56px;
+        margin: 28px 28px 0px;
+    }
+
+    .header__logo {
+        min-width: 200px;
+        max-width: 10%;
     }
 } 

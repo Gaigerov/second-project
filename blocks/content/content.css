@@ -1,4 +1,8 @@
 .content {
     margin: 0 auto;
     padding: 0;
+    background-image: url('../../images/back-min.jpg');
+    background-image: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

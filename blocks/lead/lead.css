@@ -1,7 +1,4 @@
-@import url('../lead/__title/lead__title.css');
 @import url('../lead/__subtitle/lead__subtitle.css');
-@import url('../lead/__image/lead__image.css');
-@import url('../lead/__caption/lead__caption.css');
 
 .lead {
     display: flex;
@@ -10,17 +7,19 @@
     text-align: center;
     box-sizing: content-box;
     margin: auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    min-width: 80vw;
 }
 
 @media screen and (max-width: 320px){
     .lead {
-        max-width: 320px;
+        min-height: 80vh;
     }
 
     .lead__title {
         max-width: 288px;
         font-weight: 900;
-        font-size: 40px;
+        font-size: 16px;
         line-height: 2.75rem;
     }
 
@@ -29,24 +28,20 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 1.25rem;
-        margin: 16px auto 40px;
-    }
-
-    .lead__caption {
-        max-width: 90%;
-        justify-content: flex-start;
-        margin: 8px 0 0;
+        margin: 16px auto;
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px){
     .lead {
-        max-width: 768px;
+        min-height: 60vh;
     }
 
     .lead__title {
         max-width: 350px;
-        font-size: 46px;
+        font-weight: 900;
+        font-size: 18px;
+        margin: 0 auto;
     }
 
     .lead__subtitle {
@@ -54,26 +49,21 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 1.25rem;
-        margin: 32px auto 56px;
-    }
-    
-    .lead__caption {
-        max-width: 90%;
-        justify-content: flex-start;
-        margin: 8px 0 0;
+        margin: 32px auto;
     }
 }
 
 @media screen and (min-width: 769px){
     .lead {
-        max-width: 928px;
+        min-height: 70vh;
     }
 
     .lead__title {
         max-width: 720px;
         font-weight: 900;
-        font-size: 96px;
+        font-size: 30px;
         line-height: 6.25rem;
+        margin: 0 auto;
     }
 
     .lead__subtitle {
@@ -81,27 +71,22 @@
         font-weight: normal;
         font-size: 30px;
         line-height: 36px;
-        margin: 32px auto 56px;
-    }
-
-    .lead__caption {
-        max-width: 90%;
-        justify-content: flex-start;
-        margin: 8px 0 0;
+        margin: 32px auto;
     }
 } 
 
 @media screen and (min-width: 1025px) {
     .lead {
-        max-width: 984px;
+        min-height: 70vh;
     }
 
     .lead__title {
         max-width: 720px;
+        margin: 0 auto;
     }
 
     .lead__subtitle {
         max-width: 640px;
-        margin: 32px auto 64px;
+        margin: 32px auto;
     }
 } 
